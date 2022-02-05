@@ -79,48 +79,48 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ──『[Rocks Alexa](https://telegra.ph/file/c71c9940f27143f1d6b7b.jpg)』
+ ──『[RFC GROUP MANAGEMENT BOT](https://te.legra.ph/file/3ba969b180c0066a0c0f3.jpg)』
 
-Hey Sweet Heart!!❤️
-I Am *Rocks Alexa* ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴅɪsᴛʀᴏʏ ᴀʟʟ ʀᴜᴍᴇʀs ᴡɪᴛʜ ᴍʏ ᴍᴀɢɪᴄ...\n
+Hey !!❤️
+I Am *RFC GROUP MANAGEMENT BOT* ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴅɪsᴛʀᴏʏ ᴀʟʟ ʀᴜᴍᴇʀs ᴡɪᴛʜ ᴍʏ ᴍᴀɢɪᴄ...\n
 *JOIN OFFICIAL NETWORK* -
-[CHANNEL](t.me/AsadSupport) - [SUPPORT](t.me/Shayri_Music_Lovers)\n
+[CHANNEL](t.me/RFCTEAM) - [SUPPORT](t.me/RFC_TEAM)\n
 *SEE POWER HIT - /help*
 
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 PMSTART_CHAT = (
-    "[ Get Busy Living Or Get Busy Dying!!!](https://telegra.ph/file/f821830759461370f68d9.jpg)",
-    "[I'm Dr Asad Ali Project](https://telegra.ph/file/85e4f39239fd84a27d138.jpg)",
+    "[ ROYAL FRIENDS CLUB!!!](https://te.legra.ph/file/238425e66dd8137776b1b.jpg)",
+    "[I'm RFC PROJECT](https://te.legra.ph/file/238425e66dd8137776b1b.jpg)",
     "[Turn Your Wounds Into Wisdom 🔥](https://telegra.ph/file/35e730dea457c85cc367b.mp4)",
-    "[Hahahahaha I'm Alexa!!!!](https://telegra.ph/file/6f43301a3e43d20f7906a.jpg)", )
+    "[Hahahahaha I'm RFC BOT!!!!](https://te.legra.ph/file/3ba969b180c0066a0c0f3.jpg)", )
 
 buttons = [
     [
         InlineKeyboardButton(
-                            text="💠 ᴀᴅᴅ ᴀʟᴇxᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💠",
-                            url="t.me/ROCKS_ALEXA_MANAGEMENT_BOT?startgroup=true"),
+                            text="💠 ᴀᴅᴅ RFC ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💠",
+                            url="t.me/RFC_ROBOT?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="💠 ᴋɪɴɢ", url="t.me/Dr_Asad_Ali"),
-                       InlineKeyboardButton(text="💠 ғᴇᴅ", url="t.me/rockslogchannel"),
+                       InlineKeyboardButton(text="💠 ᴋɪɴɢ", url="t.me/Deewana_mahadev_ka"),
+                       InlineKeyboardButton(text="💠 GROUP", url="t.me/RFC_TEAM"),
                      ],
                     [                  
                        InlineKeyboardButton(
-                             text="💠 ᴏᴡɴᴇʀ",
-                             url=f"https://t.me/HarshitSharma361"),
+                             text="💠 STUDY GROUP",
+                             url=f"https://t.me/STUDYBUDDY_1"),
                        InlineKeyboardButton(
                              text="💠 ɴᴇᴛᴡᴏʀᴋ",
-                             url=f"https://t.me/Shayri_Music_Lovers"),
+                             url=f"https://t.me/RFCTEAM"),
                         ],
                        [
-                           InlineKeyboardButton(text="💠 ʟᴏᴠᴇ", url="t.me/Give_Me_Heart"
-         ),
+                           InlineKeyboardButton(text="💠 GROUP", url="t.me/RFCSREYHFRIENDS"
+       
     ],
 ]
 
 HELP_STRINGS = """
-Hey there, I'm *Rocks Alexa*!
+Hey there, I'm *RFC GROUP MANAGEMENT BOT*!
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
@@ -135,8 +135,8 @@ List of all the Modules:
 )
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to My Pretty [OWNER](t.me/Dr_Asad_Ali)"""
-HELP_IMG= "https://telegra.ph/file/93aa52512ccd256888b28.jpg"
+DONATE_STRING = """Contact to My Pretty [OWNER](t.me/DEEWANA_MAGADEV_KA)"""
+HELP_IMG= "https://te.legra.ph/file/db05bb1cca3de4ede2270.jpg"
 GROUPSTART_IMG= "https://telegra.ph/file/35e730dea457c85cc367b.mp4"
 
 PM_IMG = ( "https://telegra.ph/file/8d2bf852a53bd13fb8037.jpg",
@@ -260,15 +260,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
-            GROUPSTART_IMG, caption= "*hey {},*\n*Official Rocks Alexa here*\n*Power lavel time* : {} ".format(
+            GROUPSTART_IMG, caption= "*hey {},*\n*Official RFC ROBOT here*\n*Power lavel time* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="💠 ᴋɪɴɢ ", url=f"t.me/Dr_Asad_Ali"),
-                  InlineKeyboardButton(text="💠 ᴜᴘᴅᴀᴛᴇs ", url=f"t.me/AsadSupport"),
+                  InlineKeyboardButton(text="💠 DESHU ", url=f"t.me/DEEWANA_MAHADEV_KA"),
+                  InlineKeyboardButton(text="💠 CHANNEL ", url=f"t.me/RFCTEAM"),
                   ]
                 ]
             ),
@@ -347,7 +347,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "Powered by [Dr Asad Ali](t.me/Dr_Asad_Ali) And [Harshit Sharma](t.me/HarshitSharma361)\nHere is the help for the *{}* module:\n".format(
+                "Powered by [RFC](t.me/RFCTEAM) And [DESHU](t.me/deewana_mahadev_ka)\nHere is the help for the *{}* module:\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -653,7 +653,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1342820594 and DONATION_LINK:
+        if OWNER_ID != 1356458177 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
